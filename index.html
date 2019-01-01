@@ -14,36 +14,42 @@
 </head>
 
 <body>
-    <div class="">
 
 
 
+<div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true; mode: push">
+    <div class="uk-offcanvas-bar">
 
-        <div id="" class="uk-cover-container uk-margin-bottom uk-background-cover uk-height-viewport page" style="background-image: url(images/gr2.png);" uk-height-viewport>
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
 
+         <ul class="uk-nav uk-nav-primary uk-margin-large-top">
+            <li><a href="#">Home</a></li>
+                            <li><a href="#">Watch</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Connect</a></li>
+        </ul>
+        <p class="uk-margin-large"><span class="uk-margin-large-right" uk-icon="mail"></span><span class="uk-margin-large-right" uk-icon="facebook"></span><span class="uk-margin-large-right" uk-icon="instagram"></span><span class="" uk-icon="youtube"></span></p>
 
+    </div>
+</div>
+
+        <div id="" class="uk-cover-container uk-background-cover uk-height-viewport page" style="background-image: url(images/gr2.png);" uk-height-viewport>
 
             <nav class="uk-navbar-container uk-navbar-transparent uk-align-center" uk-navbar>
 
                 <div class="uk-navbar-left">
-
                     <a class="uk-navbar-item uk-logo" href="#">&nbsp;</a>
                 </div>
                 <div class="uk-navbar-center">
-                    <ul class="uk-navbar-nav">
-                        <li><a href="#">Home</a></li>
+                    <ul class="uk-navbar-nav ">
                         <li><a href="#">Watch</a></li>
-                        <li>
-                            <a href="#">About</a>
-
-                        </li>
+                        <li><a href="#">About</a></li>
                         <li><a href="#">Gallery</a></li>
                         <li><a href="#">Connect</a></li>
-
-
                     </ul>
-                </div>
 
+                </div>
             </nav>
 
 
@@ -53,66 +59,61 @@
 
                         <a class="uk-navbar-item uk-logo" href="#"><img data-src="images/quik.png" width="200px" height="" alt="" uk-img></a>
                     </div>
-                    <div class="uk-navbar-center">
+                    <div class="uk-navbar-center uk-visible@m">
                         <ul class="uk-navbar-nav">
                             <li><a href="#">Home</a></li>
                             <li><a href="#">Watch</a></li>
-                            <li>
-                                <a href="#">About</a>
-
-                            </li>
+                            <li><a href="#">About</a></li>
                             <li><a href="#">Gallery</a></li>
                             <li><a href="#">Connect</a></li>
-
-
                         </ul>
                     </div>
                     <div class="uk-navbar-right">
 
-                        <a class="uk-navbar-item uk-logo" href="#"><button class="uk-button uk-button-primary">Support</button></a>
+                        <a class="uk-navbar-item uk-logo uk-visible@m" href="#"><button class="uk-button uk-button-primary">Support</button></a>
+                        <a class="uk-navbar-toggle uk-hidden@m" uk-toggle="target: #offcanvas-flip">
+                            <span uk-navbar-toggle-icon></span>
+                        </a>
                     </div>
                 </nav>
             </div>
 
 
-
-
-
-
-
-
             <div class="uk-position-center uk-position-small uk-text-center" style="">
                 <div class="uk-container-small" style="color: white;">
-                    <img data-src="images/quik.png" width="600px" height="" alt="" uk-img>
-                    <p class="uk-align-center ">The Life of Guru Rinpoche is a Namdrolling Monastery Production presented by The Penor Rinpoche Charity Foundation in association with Pathgate Institute, produced by HH Penor Norbu Rinpoche and remastered by Venerable Lama Dondrup Dorje under the Blessings of HH Penor Norbu Rinpoche.</p>
-                    <a href="#target" uk-scroll><button class="uk-button uk-button-primary uk-button-large">Learn More</button></a>
-                    <button class="uk-button uk-button-primary uk-button-large">Watch the Trailer</button>
-
+                     
+                    <img data-src="images/quik.png" width="700px" height="" alt="" uk-img>
+                   <p class="uk-text-lead uk-align-center" style="color: azure">A Namdrolling Monastery Production Presented by the Penor Rinpoche Charity Foundation and Pathgate Institute  </p> 
+                    <!--<p class="uk-strong uk-align-center uk-width-large">Produced by His Holiness Penor Rinpoche and remastered by Venerable Lama Dondrup Dorje</p>-->
+              
 
                 </div>
+                
             </div>
-            <!--<div class="uk-position-center-left uk-overlay uk-overlay-default">Center Left</div>-->
 
-
-
-
-
+<div class="uk-position-bottom-center uk-text-center" style="color: azure">
+      <p><a style="color: azure" href="">Learn More</a><br>
+<a href="" class=""  uk-icon="icon: chevron-down; ratio: 2.5"></a></p>
+</div>
         </div>
-    </div>
+    
 
-    <div class="uk-section uk-section-default" uk-margin-large>
+    <div class="uk-section uk-section-secondary" uk-margin-large>
         <div class="uk-container " id="target">
             <div class="uk-container-small uk-margin-top uk-margin-auto">
-                <p class="uk-text-lead uk-text-center uk-padding-large">The Life of Guru Rinpoche is a Namdrolling Monastery Production presented by The Penor Rinpoche Charity Foundation in association with Pathgate Institute, produced by HH Penor Norbu Rinpoche and remastered by Venerable Lama Dondrup Dorje under the Blessings of HH Penor Norbu Rinpoche.</p>
+                <p class="uk-text-lead uk-text-center uk-padding-large">
+                    The Timeless Legend of the Life of Guru Rinpoche has been fully translated and digitaly remastered to be presented to an international audience
+                    The Life of Guru Rinpoche is a Namdrolling Monastery Production presented by The Penor Rinpoche Charity Foundation in association with Pathgate Institute, produced by HH Penor Norbu Rinpoche and remastered by Venerable Lama Dondrup Dorje under the Blessings of HH Penor Norbu Rinpoche.</p>
                 <p class="uk-text-center uk-margin-large">
                     <a class="uk-button uk-button-secondary uk-button-large" href="#">View the Trailer</a>
                     <button class="uk-button uk-button-secondary uk-button-large">Watch Chapters 1-2</button>
                     <button class="uk-button uk-button-secondary uk-button-large">Watch Original Film</button>
                 </p>
 
-            </div>
+            </div>        <hr>
+
         </div>
-        <div class="uk-section uk-section-muted">
+        <div class="uk-section uk-section-secondary">
             <div class="uk-container">
 
                 <h2 class="uk-heading uk-heading-line uk-text-center">Watch the Trailer</h2>
@@ -124,12 +125,12 @@
                     </video></p>
             </div>
         </div>
+    </div>
 
-
-        <div class="uk-section uk-section-secondary">
+        <div class="uk-section uk-section-muted">
             <div class="uk-container">
 
-                <h2 class="uk-heading uk-heading-line uk-text-center uk-margin-large">About the Film</h2>
+                <h2 class="uk-heading uk-heading-line uk-text-center uk-margin-large" style="color: #e7af6a;">About the Film</h2>
 
 
                 <div class="uk-margin" uk-switcher="animation: uk-animation-fade" style="text-align: center">
@@ -176,7 +177,7 @@
                                     <p>Be brave. There it is. Isn't it great to do something you can't fail at? Anyone can paint. You can create the world you want to see and be a part of. You have that power. Fluff that up.</p>
 
                                     <p>There we are. Everybody needs a friend. Use absolutely no pressure. Just like an angel's wing. Clouds are free they come and go as they please. We need a shadow side and a highlight side.</p>
-                                    
+
                                     <a href="#" style="color: #000;" uk-switcher-item="next">Next</a><br>
                                     <a href="#" style="color: #000;" uk-switcher-item="previous">Previous</a>
 
@@ -192,7 +193,7 @@
                             </div>
                             <div>
                                 <div class="uk-card-body">
-                                    <h2 class="uk-heading" style="color: #000;">The Legend</h2>
+                                    <h2 class="uk-heading" style="color: #000;">The Legend - Who is Guru Rinpoche?</h2>
                                     <p>That's crazy. By now you should be quite happy about what's happening here. The secret to doing anything is believing that you can do it. Anything that you believe you can do strong enough, you can do. Anything. As long as you believe. It's a super day, so why not make a beautiful sky? A big strong tree needs big strong roots.</p>
                                     <p>That's crazy. By now you should be quite happy about what's happening here. The secret to doing anything is believing that you can do it. Anything that you believe you can do strong enough, you can do. Anything. As long as you believe. It's a super day, so why not make a beautiful sky? A big strong tree needs big strong roots.</p>
                                     <a href="#" style="color: #000;" uk-switcher-item="previous">Previous</a>
@@ -205,12 +206,14 @@
                     </li>
                 </ul>
             </div>
+            
         </div>
 
 
 
         <div class="uk-section uk-section-muted">
             <div class="uk-container">
+                <hr class="uk-margin-large-bottom">
 
                 <div class="cocoen">
                     <img src="images/6a.png" alt="">
@@ -219,7 +222,7 @@
                 </div>
             </div>
         </div>
-        <div class="uk-section uk-section-secondary uk-padding-large-bottom">
+        <div class="uk-section uk-section-secondary">
             <div class="uk-container">
 
                 <div class="uk-grid uk-child-width-1-1@m uk-text-center" uk-grid>
@@ -249,10 +252,6 @@
 
 
         </div>
-    </div>
-
-
-
 
 
     <script src="js/cocoen.min.js"></script>
