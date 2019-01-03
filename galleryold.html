@@ -8,71 +8,50 @@
     <link rel="stylesheet" href="css/uikit.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/cocoen.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy" rel="stylesheet">
+
     <script src="js/uikit.min.js"></script>
     <script src="js/uikit-icons.min.js"></script>
 </head>
 
 <body>
+    <div class="">
 
 
 
-    <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true; mode: push">
-        <div class="uk-offcanvas-bar">
 
-            <button class="uk-offcanvas-close" type="button" uk-close></button>
-
-            <ul class="uk-nav uk-nav-primary uk-margin-large-top">
-                <li><a href="#">Home</a></li>
-                <li><a href="#trailer" uk-scroll>Watch</a></li>
-                <li><a href="#about" uk-scroll>About</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="#connect" uk-scroll>Connect</a></li>
-                <li><a href="#contribute" uk-scroll>Contribute</a></li>
-
-            </ul>
-            <p class="uk-margin-large"><span class="uk-margin-large-right" uk-icon="mail"></span><span class="uk-margin-large-right" uk-icon="facebook"></span><span class="uk-margin-large-right" uk-icon="instagram"></span><span class="" uk-icon="youtube"></span></p>
-
-        </div>
-    </div>
-
-    
-
-
-
-        <div class="" uk-sticky>
-            <nav class="uk-navbar-container" style="background:#181919; z-index: -100;" uk-navbar>
-                <div class="uk-navbar-left">
-
-                    <a class="uk-navbar-item uk-logo" href="index.html"><img data-src="images/quik.png" width="200px" height="" alt="" uk-img></a>
-                </div>
-                <div class="uk-navbar-center uk-visible@m">
-                    <ul class="uk-navbar-nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="index.html">Watch</a></li>
-                        <li><a href="index.html">About</a></li>
-                        <li><a href="gallery.html" class="">Gallery</a></li>
-                        <li><a href="index.html" uk-scroll>Connect</a></li>
-                    </ul>
-                </div>
-                <div class="uk-navbar-right">
-
-                    <a class="uk-navbar-item uk-logo uk-visible@m" href="index.html#contribute" uk-scroll><button class="uk-button uk-button-default" style="color: #e7af6a;">Contribute</button></a>
-                    <a class="uk-navbar-toggle uk-hidden@m" uk-toggle="target: #offcanvas-flip">
-                        <span uk-navbar-toggle-icon></span>
-                    </a>
-                </div>
-            </nav>
-        </div>
-
-       <div id="" class="uk-cover-container uk-margin-bottom uk-background-cover uk-height-large page" style="background-image: url(images/bgtest.png);" >
+        <div id="" class="uk-cover-container uk-margin-bottom uk-background-cover uk-height-large page" style="background-image: url(images/bgtest.png);" >
 
 
 
 
 
 
-          
+            <div class="" uk-sticky>
+                <nav class="uk-navbar-container" style="background:#000; " uk-navbar>
+                    <div class="uk-navbar-left">
+
+                        <a class="uk-navbar-item uk-logo" href="#"><img data-src="images/quik.png" width="200px" height="" alt="" uk-img></a>
+                    </div>
+                    <div class="uk-navbar-center">
+                        <ul class="uk-navbar-nav">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Watch</a></li>
+                            <li>
+                                <a href="#">About</a>
+
+                            </li>
+                            <li><a href="#">Gallery</a></li>
+                            <li><a href="#">Connect</a></li>
+
+
+                        </ul>
+                    </div>
+                    <div class="uk-navbar-right">
+
+                        <a class="uk-navbar-item uk-logo" href="#"><button class="uk-button uk-button-primary">Support</button></a>
+                    </div>
+                </nav>
+            </div>
 
 
                             <h1 class="uk-h1 uk-text-center uk-light uk-position-center">Stills</h1>
@@ -80,7 +59,7 @@
 
         </div>
 
-
+    </div>
 
     <div class="uk-section uk-section-muted" uk-margin-large>
         <div class="uk-container " id="target">
@@ -175,18 +154,30 @@
     </div>
 
 
-    
-        <div id="connect"></div>
-            
-      
+<a class="uk-button uk-button-default" href="#modal-full" uk-toggle>Open</a>
 
-    <div class="uk-section uk-section-secondary">
+<div id="modal-full" class="uk-modal-full" uk-modal>
+    <div class="uk-modal-dialog">
+        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+        
+           
+             <div class="cocoen">
+                    <img src="images/6a.png" alt="">
+                    <img src="images/6b.png" alt="">
+
+        </div>
+    </div>
+</div>
+
+
+
+    <div class="uk-section uk-section-secondary uk-padding-large-bottom">
         <div class="uk-container">
 
             <div class="uk-grid uk-child-width-1-1@m uk-text-center" uk-grid>
-
+                <p>info@pathgate.org</p>
                 <p class="uk-margin-large"><span class="uk-margin-large-right" uk-icon="mail"></span><span class="uk-margin-large-right" uk-icon="facebook"></span><span class="uk-margin-large-right" uk-icon="instagram"></span><span class="" uk-icon="youtube"></span></p>
-                <h3 class="uk-text-uppercase uk-margin-large-bottom" style="color: #e7af6a; font-family: 'Sorts Mill Goudy', serif;">The Life of Guru Rinpoche <br> The New Edition </h3>
+                                    <h3 class="uk-text-uppercase">The Life of Guru Rinpoche - The New Edition</h3>
 
             </div>
             <div class="uk-grid uk-child-width-1-3@m uk-text-center uk-margin-large" uk-grid>
@@ -203,17 +194,12 @@
                 </div>
             </div>
             <div class="uk-grid uk-child-width-1-1@m uk-text-center" uk-grid>
-                <p class="uk-margin-large-top"><br><br>© <script>
-                        document.write(new Date().getFullYear())
-
-                    </script>
-                    Pathgate Institute &amp; Namdrolling Monastery &middot; All rights reserved</p>
+                <p class="uk-margin">© 2018 Pathgate Institute &amp; Namdrolling Monastery &middot; All rights reserved</p>
             </div>
         </div>
 
-
-
     </div>
+
 
 
     <script src="js/cocoen.min.js"></script>
@@ -221,54 +207,6 @@
         document.addEventListener('DOMContentLoaded', function() {
             new Cocoen();
         });
-
-    </script>
-    <script>
-        function firstSet() {
-            var element = document.getElementById("myDIV");
-            document.getElementById('before').src = 'images/6a.png';
-            document.getElementById('after').src = 'images/6b.png';
-        }
-
-
-        function secondSet() {
-            var element = document.getElementById("myDIV");
-            document.getElementById('before').src = 'images/1a.png';
-            document.getElementById('after').src = 'images/1b.png';
-        }
-
-
-        function thirdSet() {
-            var element = document.getElementById("myDIV");
-            document.getElementById('before').src = 'images/3a.png';
-            document.getElementById('after').src = 'images/3b.png';
-
-        }
-
-        function fourthSet() {
-            var element = document.getElementById("myDIV");
-            document.getElementById('before').src = 'images/4a.png';
-            document.getElementById('after').src = 'images/4b.png';
-        }
-
-        function fifthSet() {
-            var element = document.getElementById("myDIV");
-            document.getElementById('before').src = 'images/5a.png';
-            document.getElementById('after').src = 'images/5b.png';
-        }
-
-    </script>
-    <script>
-        // Add active class to the current button (highlight it)
-        var header = document.getElementById("myDIV");
-        var btns = header.getElementsByClassName("btn");
-        for (var i = 0; i < btns.length; i++) {
-            btns[i].addEventListener("click", function() {
-                var current = document.getElementsByClassName("active");
-                current[0].className = current[0].className.replace(" active", "");
-                this.className += " active";
-            });
-        }
 
     </script>
 
