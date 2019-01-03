@@ -30,3 +30,16 @@
 	width: 100%;
 	height: 100%;
 }
+
+.uk-tab>*>a {
+    
+    padding: 15px;
+    color: #999;
+    border-bottom: 2px solid transparent;
+    
+}
+
+.uk-tab>.uk-active>a {
+    color: #333;
+    border-color: #e7af6a;
+}
